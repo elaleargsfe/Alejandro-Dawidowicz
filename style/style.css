@@ -1,0 +1,175 @@
+body {
+     margin: 3;
+     font-size: small;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+     background: rgb(251, 251, 252);
+}
+
+
+    .menu {
+        padding: 2%;
+        cursor: pointer;
+        background: white;
+        border-right: 1px solid white;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 2fr 6fr;
+        align-items: center;
+        width: auto;
+        margin: auto;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        
+
+            
+        
+        
+
+    }
+    
+    .toggle {
+    color: black; 
+    background: none; 
+    border: none;
+    padding: 0px;
+    display: none;
+
+
+
+
+    }
+
+
+    .menu ul {
+     margin: 0;
+     list-style: none;
+     padding: 10px 60px;
+     
+
+    
+    }
+
+    .menu li {
+    display: inline-block; 
+    padding: 10px
+    margin: 5;
+    float :left
+    }
+
+    .menu ul li a {
+        color: dimgrey;
+        text-decoration: none;
+        padding: 10px;
+        
+        
+    }
+
+    .menu ul li a:hover {
+            background-color: lightgrey;
+
+
+    }
+
+   
+    .fondo img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .texto {
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+           background-color: #eee;  
+           border: solid 1px #000;  
+           margin-right: 35%; 
+           margin-left:  40%;
+           
+           
+
+
+    }
+        
+     .flex {
+        display: flex; 
+          
+    
+
+
+     }
+
+     .campus_virtual {
+           display: flex;       
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+           border: solid 1px #000;  
+           margin-right: 20%; 
+           margin-left:  40%;      
+
+                   
+       }  
+       
+       .ingresoCamp { 
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        }
+        
+        .ingresoCamp {
+          text-align: center;
+        }
+        
+              
+
+
+          
+                          
+
+    
+
+
+
+    .contenedor {
+        display: inline-block;
+        padding: 10px
+        margin: 5;
+        float :left
+      }            
+
+      
+       
+      @media only screen and (max-width: 800px) {
+        .contenedor {
+          width: 100%;
+          height: auto;
+          
+          
+        }
+        .menu ul li {
+            display: none;
+        }
+        .logo {
+            display: none 
+
+        }
+
+        .toggle {
+            display: block;
+            left: 100%;
+
+     @media only screen and (max-width: 400px) {
+            .contenedor {
+              width: 100%;
+              height: auto;
+              
+            }
+            }
+
+    .toggle {
+        display: block;
+        left: 100%;
+    }
+
+    
+    

@@ -2,7 +2,7 @@ body {
      margin: 3;
      font-size: small;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-     background: rgb(251, 251, 252);
+     
 }
 
 
@@ -52,7 +52,7 @@ body {
     .menu li {
     display: inline-block; 
     padding: 10px
-    margin: 5;
+    margin: 5px;
     float :left
     }
 
@@ -85,10 +85,7 @@ body {
            align-content: center;
            margin-left:  10%;
            margin-right: 11%;
-           
-
-
-    }
+               }
         
      .flex {
         display: flex;   

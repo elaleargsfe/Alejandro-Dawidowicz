@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/elaleargsfe/Alejandro-Dawidowicz/issues"
   },
-  "homepage": "https://github.com/elaleargsfe/Alejandro-Dawidowicz#readme"
+  "homepage": "https://github.com/elaleargsfe/Alejandro-Dawidowicz#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
